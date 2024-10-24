@@ -24,7 +24,7 @@ public class PrimeNumberChecker {
         System.out.println("List of prime numbers up to " + number + ":");
         for (int i = 2; i <= number; i++) {
             boolean isPrimeCheck = true;
-            for (int j = 2; j <= Math.sqrt(i); j++) {
+            for (int j = 5; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
                     isPrimeCheck = false;
                     break;
